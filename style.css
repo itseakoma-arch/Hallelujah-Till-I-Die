@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'Trackstar Studios';
+  src: url("./font/TrackstarStudios/Qwigley-Regular.ttf") format("truetype");
+  }
+  @font-face {
+  font-family: "Say Trackstar";
+  src: url("./font/SayTrackstar/Caveat-Bold.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: 'Cloister Black';
+  src: url("./font/CloisterBlack/CloisterBlack.ttf") format("truetype");
+}
+
+  .trackstar-studios{
+      text-align: center;
+      font-family: 'Trackstar Studios';
+      font-size: 30px;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      margin:0;
+  }
+
+  .profile-image{
+      border-radius: 100px;
+      box-shadow: 10px 4px 20px -12px rgba(189, 24, 24, 0.615);
+      position: absolute;
+      left: 10px;
+      top: 50%px;
+      width: clamp(90px, 9vw, 110px);
+      height: clamp(4px, 14vh, 250px);
+  }
+
+#background-image-container{
+  background-image: url(IMG_7273.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  margin-top: 0px;
+}
+    .heading{
+      color: white;
+      text-align: center;
+      text-shadow: 0 0 15px black;
+      margin-top: 0px;
+      font-size: clamp(0px, 4vw, 100px);
+      font-family: 'Cloister Black';
+      text-decoration: none;
+      position:relative;
+    }
+
+.profile-and-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  height: clamp(120px, 18vh, 500px);
+}
+
+    .art-cover{
+    border-radius: 30px;
+    width: 40%;
+ }
+
+
+   .sneak-verse {
+    font-family:'Courier New', Courier, monospace;
+    flex: 1;
+    font-size: clamp(8px, 2vw, 30px);
+    overflow-y: auto;
+  }
+
+.gif-container {
+  background-image: url(IMG_7430.JPG);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.3);
+  filter:blur(10px);
+  position:absolute;
+}
+
+
+.the-making-div{
+  width: 50%;
+  height: auto;
+  margin-bottom: none;
+}
+  
+  .the-making-paragraph {
+    font-family: 'Say Trackstar';
+    font-size: clamp(20px, 3vw, 500px);
+  }
+
+
+    .say-trackstar {
+      font-family: 'Say Trackstar';
+      text-align: center;
+    }
+
+  #art-cover-lyrics{
+  align-items: stretch;
+  width: 100%;
+  max-height: 550px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.logo {
+  width: 30px;
+}
+
+#logos {
+  text-align: center;
+  width: 100%;
+}
+
+.links {
+  color:rgb(0, 110, 255);
+}
+
+#youtube-logo {
+  border-radius: 30px;
+}
+
+.video-row {
+  display:flex;
+  gap: 20px;
+  align-items: center;
+  overflow-x: auto;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.videos{
+  border-radius: 20px;
+}
